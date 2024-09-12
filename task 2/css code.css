@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-    font-family:'poppins',
-    sans-serif;
+    font-family:'Poppins',sans-serif;
     text-decoration:none;
     list-style:none;
 
@@ -31,7 +30,6 @@
 .logo:hover{
     color:orangered;
     text-shadow:0 0 25px orangered;
-                0 0 50px orangered;
     transform:scale(1.1);
 
 }
@@ -48,7 +46,7 @@ span{
 
 }
 .navbar a:hover,
-.navbar1.active{
+.navbar a.active{
     color:orangered;
     border-bottom:3px solid orangered;
 
@@ -168,7 +166,6 @@ span{
     position:relation;
     width:558px;
     box-shadow: 0 0 25px orangered;
-                0 0 50px  orangered;
 
     border-radius:50px;
 }
@@ -201,7 +198,7 @@ margin:2em 0 3em;
     text-align:center;
     margin-bottom:3em;
 }
-.contact-form form.input-box{
+.contact-form form .input-box{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
